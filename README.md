@@ -1,6 +1,8 @@
 # linux101
 
 **Terminal 101**
+
+
 username@host:
 
 
