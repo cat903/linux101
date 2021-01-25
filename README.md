@@ -1,3 +1,6 @@
 # linux101
 
-**in terminal /<username/>@host:(~home)(#root)**
+**Terminal 101**
+username@host:
+~ indicates current home directory
+'# indicates root
