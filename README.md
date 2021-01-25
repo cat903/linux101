@@ -2,5 +2,9 @@
 
 **Terminal 101**
 username@host:
-~ indicates current home directory
-'# indicates root
+
+
+'~' indicates current home directory
+
+
+'#' indicates root
