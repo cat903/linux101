@@ -1,0 +1,16 @@
+APT-Advanced Package Management 
+apt list //list all pacakges with version
+apt list --installed //list installed packages
+apt list --upgradeable
+apt update
+apt upgrade
+apt upgrade package_name
+apt full-upgrade
+apt install package_name
+apt install package1 package2
+apt install /full/path/file.deb
+apt remove package_name
+apt remove package1 package2
+apt purge package_name
+apt autoremove
+apt show package_name //show information about pacakge
