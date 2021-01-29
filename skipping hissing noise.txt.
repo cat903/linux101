@@ -4,3 +4,9 @@ sudo echo 0 > /sys/module/snd_hda_intel/parameters/power_save
 #to make it consistent added a cronjob
 crontab -e
 @reboot /"path to execute script"
+
+
+another one:
+sudo nano /etc/modprobe.d/alsa-base.conf
+
+options snd_hda_intel power_save=0 power_save_controller=N  //add this line to end of file
