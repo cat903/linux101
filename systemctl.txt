@@ -8,3 +8,7 @@ sudo systemctl reload-or-restart application.service //if service have reload ab
 sudo systemctl enable application.service //to start service in boot
 sudo systemctl disable application.service //disable service at boot
 systemctl status application.service //status of service
+
+
+to check after starting a service we can check if its running using ps tool
+ps -aux | grep ssh
