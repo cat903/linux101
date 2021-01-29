@@ -9,3 +9,7 @@ set-default-sink echoCancel_sink
 
 pulseaudio -k
 pulseaudio --start
+
+restart system
+
+on the top panel adjust mic sensitivity
