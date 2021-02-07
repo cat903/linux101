@@ -1,2 +1,3 @@
 #ls to list files
-ls   
+ls   #list's file in current directory
+ls / #lists file in root directory
