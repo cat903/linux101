@@ -1,3 +1,10 @@
 #ls to list files
 ls   #list's file in current directory
 ls / #lists file in root directory
+ls ~ #lists file in home directory
+ls .. #lists files in one directory up
+ls ../.. #lists files two directory up
+ls -d */ #lists only directories not files
+ls * #lists files of directory and subdirectories
+ls -R #lists all files and directories with their corresponding subdirectories down to the last file
+ls <dir> -R #lists  all files and directories with its subdirectories
