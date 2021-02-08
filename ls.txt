@@ -8,3 +8,4 @@ ls -d */ #lists only directories not files
 ls * #lists files of directory and subdirectories
 ls -R #lists all files and directories with their corresponding subdirectories down to the last file
 ls <dir> -R #lists  all files and directories with its subdirectories
+ls -s #list files size
