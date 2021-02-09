@@ -9,4 +9,4 @@ ls * #lists files of directory and subdirectories
 ls -R #lists all files and directories with their corresponding subdirectories down to the last file
 ls <dir> -R #lists  all files and directories with its subdirectories
 ls -s #list files size
-ls -l #list files in long format
+ls -l #list files in long format *content permission *numberoflinks to the content *ownerofthecontent *groupowner *sizeinbytes *lastmodified/time *filedirectoryname
