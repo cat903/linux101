@@ -10,3 +10,7 @@ username@host:
 
 
 '#' indicates root
+
+```bash
+  cp file.txt
+```
