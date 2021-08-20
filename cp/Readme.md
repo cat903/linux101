@@ -25,7 +25,7 @@ copies source file with desired name to a destination folder, if file with same 
 ```console
 cp  -i  filename1.txt  filename2.txt
 ```
-`cp -i` $~~$ refers to interactive copy , if cp had to overwrit
+`cp -i`  refers to interactive copy , if cp had to overwrit
 e somefile it will prompt and ask user to press y to overwrite the file.
 <hr>
 
@@ -33,7 +33,7 @@ e somefile it will prompt and ask user to press y to overwrite the file.
 cp -b file1.txt file2.txt
 ```
 
-`cp -b` $~~$ refers to backupa and copy, if file2.txt exist already cp will backup file2.txt as ~file2.txt and then it will overwrite its content
+`cp -b`  refers to backupa and copy, if file2.txt exist already cp will backup file2.txt as ~file2.txt and then it will overwrite its content
 with file1.txt's content. 
 <hr>
 
@@ -41,7 +41,7 @@ with file1.txt's content.
 cp -r folderA file1.txt folderB
 ```
 
-`cp -r` $~~$ is **used to copy directory**, above command makes a copy of  folderA and file1.txt inside folderB
+`cp -r`  is **used to copy directory**, above command makes a copy of  folderA and file1.txt inside folderB
 <hr>
 
 For More Options press Ctrl+Alt+t to open up terminal & type
