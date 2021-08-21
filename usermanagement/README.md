@@ -142,7 +142,7 @@ prints total line in passwd file
 by using `usermod` command we modify above files, **`usermod` command requires root previlige**.
 
 ```console
-sudo usermod -c "comment about user" username
+sudo usermod -c "<comment_about_user>" <username>
 ```
 
 ![usermod-c](usermodc.png)
@@ -154,7 +154,7 @@ we can see that GECOS filed for user `catalyst` is updated with the comment we p
 we can change userdirectory name for a particular user
 
 ```console
-sudo usermod -d /home/new_userdirectoryname username
+sudo usermod -d /home/new_userdirectoryname <username>
 ```
 
 above command will change the the name of userdirectory. 
@@ -172,7 +172,7 @@ we can also set or change expiry of a user using `usermod` command
 sudo usermod -e <YYYY-MM-DD> <username>
 ```
 
-To view expiry of a user-account
+**To view expiry of a user-account**
 
 ```console
 sudo chage -l <username>
