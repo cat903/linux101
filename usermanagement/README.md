@@ -57,19 +57,21 @@ getent passwd
 ```
 
 `getent` command fetches user information from database configured in /etc/nsswitch.conf. file which also includes passwd database.
+<hr>
 
 ```console
 cut -d : -f1 /etc/passwd
 ```
 
 `cut` command with `-d` delimeter ":" we can get fields `-f1` refers to first field or usernames
+<hr>
 
 ```console
 compgen -u
 ```
 
 `compgen` with optin `-u` prints users without any additional informations
-
+<hr>
 
 ```console
 who
@@ -77,6 +79,7 @@ or
 whoami
 ```
 prints information about current user
+<hr>
 
 ```console
 getent passwd | wc -l
