@@ -7,6 +7,46 @@ Whenever a new user is created These Things Happens,
  - Creates a private user group, named after the username
  - .bashrc and .bash_logout are copied to the home directory of new user. These files provide environment variables for this user’s session.
 
+# Frequently_Used_Commands
+view group id and user id of an user
+```console
+id <username>
+```
+![idusernmae](idusername.png)
+
+Add User
+
+```console
+sudo adduser <username>
+```
+
+change password of an user
+
+```console
+sudo passwd <username>
+```
+delete user **[if a group has only one user & that useraccount is deleted the group will get deleted automatically]**
+
+```console
+sudo deluser <username>
+```
+
+`deluser` can also be used to remove a user from group only without deleting user
+
+```console
+deluser <username> <groupname>
+```
+
+add group 
+
+```console
+addgroup <groupname>
+```
+delete group
+
+```console
+delgroup <groupname>
+```
 
 # Passwd_File
 All information related to user in linux system is stored in `/etc/passwd` file
@@ -204,3 +244,40 @@ sudo usermod -u <newuniqenumber> <username>
 ![usermodu](usermodu.png)
 
 # Sudoers_File
+
+By default, the first user created during the installation of Ubuntu is given the sudo privileges. It is given full root privileges and is added to the list of sudoers in the `/etc/sudoers` file.
+
+We can add users to sudoers file to give an user admin previleges
+
+```console
+sudo vi /etc/sudoers
+```
+The easiest method to grant superuser permissions for mehedi is by adding the following line at the bottom of /etc/sudoers:
+
+```console
+<username> ALL=(ALL) ALL
+```
+here first ALL refers to host alias second ALL refers to Run alias third ALL refers to Command Alias
+
+Basically it means `<username>` can run any commmand as any user in the host
+
+
+we can restrict the list of commands that can be executed by a given user by grouping them into sets known as aliases.
+
+```console
+<username> ALL=(root) /usr/sbin/adduser, /usr/sbin/usermod
+```
+Now `<username>` will only able to use adduser and usermod command as super user
+
+and won't be able to use any other command. by giving a user only permissions that they need  maintains **principal of least previlage access** 
+
+We can user Command ALias group for reusability
+
+e.g define an alias **[must be uppercase]** in bottom of sudoers file
+
+```console
+Cmnd_Alias USERMANAGEMENT = /usr/sbin/adduser, /usr/sbin/usermod
+<username>    ALL=(root) USERMANAGEMENT
+```
+
+Now `<username>` will only be able to execute adduser,usermod command as super user.
