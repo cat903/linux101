@@ -129,14 +129,78 @@ we can also edit /etc/passwd file to change home directoy of a user
 we can also set or change expiry of a user using `usermod` command
 
 ```console
-sudo usermod -e 20201-09-29 optimus1
+sudo usermod -e <YYYY-MM-DD> <username>
 ```
 
 To view expiry of a user-account
 
 ```console
-sudo chage -l optimus1
+sudo chage -l <username>
 ```
 
 ![usermod-e](usermode.png)
+<hr>
 
+we can change group of a user using `usermod` command
+
+```console
+sudo usermod -g <existinggroupname> <username>
+```
+To view changes
+
+```console
+id <username>
+```
+![usermode-g](usermodg.png)
+<hr>
+
+we can change user login name using
+
+```console
+sudo usermod -l <newlogin> <oldloginname>
+```
+![usermod-l](usermodl.png)
+<hr>
+
+We can **lock or disable a user**
+
+```console
+sudo usermod -L <username> 
+```
+To unlock user
+```console
+sudo usermod -U <username>
+```
+
+![userlock](usermodlock.png)
+
+**during lock period we can't login to the locked user untill we unlock the user**
+<hr>
+
+we can **intentionally** set unencrypted passwod for a user
+
+```console
+sudo usermod -p <password> <username>
+```
+to view unencrypted password 
+
+```console
+sudo cat /etc/shadow | grep "<username>" | cut -d : -f2
+```
+![unencryptedpass](unencryptedpass.png)
+<hr>
+
+Bydefault when we create user a shell is binded to that user but we can manually do that too.
+
+```console
+sudo usermod -s /bin/sh <username>
+```
+
+Bydefault when we create useraccount an unique user id is assigned to that user, but if we want we can change that using usermod.
+
+```console
+sudo usermod -u <newuniqenumber> <username>
+```
+![usermodu](usermodu.png)
+
+# Sudoers_File
