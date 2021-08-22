@@ -11,7 +11,7 @@ we cab check vim version by typing  `vi --version` into terminal.
 
  - Insert Mode-Insert mode allows user to type & insert text.
 
- - Visual Mode-This mode allows us to move through a file, and to delete, copy, or paste a piece of text. When ever vim editor is opened up it's on command mode by default. we can also get into command mode by pressing  `Esc key`
+ - Visual Mode-This mode allows us to move through a file, and to delete, copy, or paste a piece of text. When ever vim editor is opened up it's on command mode by default. we can also get into command mode by pressing  `Esc`
 
 <hr>
 
@@ -36,24 +36,28 @@ view <filename>
 
 ## BasicCommands_NormalMode
 
-|Command|Effects|
-|-------------| -------------|
-|h| will start typing text before the cursor's current position, until you are pressing the <Esc> key.|
-|j|  will start typing text at the beginning of the current line, until you are pressing the <Esc> key.|
-|k| will start typing after the cursor position|
-|l| will start typing text at the end of current line|
-|o| will insert newline after the current line|
-|O| will insert a newline before the current line|
-
+| Action | Effect |
+| ------------- | ------------- |
+| h | move cursor one character left |
+| j | move cursor one row down |
+| k | move cursor one row up |
+| l | move cursor one character right |
+| w | move cursor to beginning of next word |
+| b | move cursor to previous words begining |
+| e | move cursor to end of the word |
+| 0 | move cursor to begining of current line |
+| $ | move cursor to end of current line |
+| gg | move cursor to the begining of file |
+| G | move cursor to the end of file |
 <hr>
 
 ## BasicCommands_InsertMode
 
-| Command  | Effects |
+| Action | Effect |
 | ------------- | ------------- |
-| i  | will start typing text before the cursor's current position, until you are pressing the <Esc> key.      |
-| I  |  will start typing text at the beginning of the current line, until you are             pressing the <Esc> key. |
-|a| will start typing after the cursor position|
-|A| will start typing text at the end of current line|
-|o| will insert newline after the current line|
-|O| will insert a newline before the current line|
+| i | will start typing text before the cursor's current position, until you are pressing the <Esc> key. |
+| I  |  will start typing text at the beginning of the current line, until you are pressing the <Esc> key. |
+| a | will start typing after the cursor position |
+| A | will start typing text at the end of current line |
+| o | will insert newline after the current line |
+| O | will insert a newline before the current line |
