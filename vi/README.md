@@ -31,7 +31,7 @@ vi -R <filename>
 or
 view <filename>
 ```
-# BasicCommands_NormalMode
+## BasicCommands_NormalMode
 
 |Command|Effects|
 |-------------| -------------|
@@ -41,8 +41,8 @@ view <filename>
 |l| will start typing text at the end of current line|
 |o| will insert newline after the current line|
 |O| will insert a newline before the current line|
-
-# BasicCommands_InsertMode
+<hr>
+## BasicCommands_InsertMode
 
 | Command  | Effects |
 | ------------- | ------------- |
