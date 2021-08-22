@@ -49,6 +49,10 @@ view <filename>
 | $ | move cursor to end of current line |
 | gg | move cursor to the begining of file |
 | G | move cursor to the end of file |
+| yy | yank to copy current line |
+| p | to paste copied content |
+| u | to undo changes |
+| C-r| to redo changes |
 <hr>
 
 ## BasicCommands_InsertMode
