@@ -2,11 +2,11 @@
 This repository is intitated with intent to learn and practice OS Lab
 As well as it will be useful if someone is getting started with GNU/linux debian based distro-ubuntu.
 
-
 - **Ubuntu Version 20.4**
 - **Kernel Latest@2021-Sept**
 
-## hrefs <hr>
+## hrefs
+
    - [cp](https://github.com/cat903/linux101/tree/main/cp)
    - [mv](https://github.com/cat903/linux101/tree/main/misc)
    - [touch](https://github.com/cat903/linux101/tree/main/touch)
@@ -37,4 +37,4 @@ As well as it will be useful if someone is getting started with GNU/linux debian
 
 <hr>
 
-   <center>**Made with :heart: using linux**<center>
+   <h3 align="center"> Made with :heart: using linux </h3>
