@@ -36,4 +36,5 @@ As well as it will be useful if someone is getting started with GNU/linux debian
    - [ ] tail
 
 <hr>
-   <center>**Made with :heart: using linux**
+
+   <center>**Made with :heart: using linux**<center>
