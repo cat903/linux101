@@ -1,2 +1,0 @@
-extend-time: gsettings set org.gnome.settings-daemon.plugins.media-keys max-screencast-length 60
-lots of feature record audio and more : https://extensions.gnome.org/extension/690/easyscreencast/

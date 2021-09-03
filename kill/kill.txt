@@ -1,6 +1,0 @@
-kill -l
-lists all signals
-
-kill -9 pid
-
-killall processname
