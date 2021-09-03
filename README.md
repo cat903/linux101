@@ -1,16 +1,10 @@
-# linux101
+# Overview
+This repository is intitated with intent to learn and practice OS Lab
+As well as it will be useful if someone is getting started with GNU/linux debian based distro-ubuntu.
 
-**Terminal 101**
-
-
-username@host:
-
-
-'~' indicates current home directory
+- Ubuntu Version 20.4
+- Kernel Latest@2021-Sept
 
 
-'#' indicates root
-
-```bash
-  cp file.txt
-```
+# Table of Contents
+   

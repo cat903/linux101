@@ -16,3 +16,5 @@ apt autoremove
 apt show package_name //show information about pacakge
 apt-cache //The apt-cache command can display much of the information stored in APT's internal database
 apt-cache search packagename //search internal apt database
+apt upgrade --fix-missing
+apt install -f

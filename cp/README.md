@@ -1,4 +1,4 @@
-# **CP Command**
+# **cp Command**
 **cp stands for copy.** "cp" command is used **to copy file or group of files and folders**
 <hr>
 
@@ -33,7 +33,7 @@ e somefile it will prompt and ask user to press y to overwrite the file.
 cp -b file1.txt file2.txt
 ```
 
-`cp -b`  refers to backupa and copy, if file2.txt exist already cp will backup file2.txt as ~file2.txt and then it will overwrite its content
+`cp -b`  refers to backup and copy, if file2.txt exist already cp will backup file2.txt as ~file2.txt and then it will overwrite its content
 with file1.txt's content. 
 <hr>
 
