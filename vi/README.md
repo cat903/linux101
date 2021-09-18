@@ -62,9 +62,16 @@ view <filename>
 | Action | Effect |
 | ------------- | ------------- |
 | i | will start typing text before the cursor's current position, until you are pressing the <Esc> key. |
-| I  |  will start typing text at the beginning of the current line, until you are pressing the <Esc> key. |
+| I  |  will start typing text at the beginning of the current line, until you are pressing the <Esc> key. 
 | a | will start typing after the cursor position |
 | A | will start typing text at the end of current line |
 | o | will insert newline after the current line |
 | O | will insert a newline before the current line |
+
+
+
+## BasicCommands_VisualMode
+| Action | Effect |
+|--------|--------|
+| v | get into visual mode |
 | V | copy a line |
