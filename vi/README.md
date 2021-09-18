@@ -42,7 +42,8 @@ view <filename>
 | j | move cursor one row down |
 | k | move cursor one row up |
 | l | move cursor one character right |
-| w | move cursor to beginning of next word |
+| w | move cursor to beginning of next word (punctuations are considered words) |
+| W | move cursor to begining of next word (space seperates word) |
 | b | move cursor to previous words begining |
 | e | move cursor to end of the word |
 | 0 | move cursor to begining of current line |
@@ -51,7 +52,8 @@ view <filename>
 | G | move cursor to the end of file |
 | yy | yank to copy current line |
 | p | to paste copied content |
-| u | to undo changes |
+| P | paste above |
+| u | to undo changes | 
 | C-r| to redo changes |
 <hr>
 
@@ -65,3 +67,4 @@ view <filename>
 | A | will start typing text at the end of current line |
 | o | will insert newline after the current line |
 | O | will insert a newline before the current line |
+| V | copy a line |

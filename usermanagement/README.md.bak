@@ -110,7 +110,7 @@ cut -d : -f1 /etc/passwd
 compgen -u
 ```
 
-`compgen` with option `-u` prints users without any additional information's
+`compgen` with option `-u` prints users without any additional informations
 <hr>
 
 ```console
